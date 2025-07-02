@@ -1,0 +1,86 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Environment variables and secrets
+*.env
+.env.*
+
+# Django migration logs and SQLite DB (optional)
+db.sqlite3
+*.sqlite3
+*.log
+
+# Django specific files
+*.pot
+*.pyc
+*.pyo
+*.mo
+
+# VS Code and IDE folders
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Static files (if generated)
+staticfiles/
+static/
+
+# Media files (user-uploaded content)
+media/
+
+# MyPy, Pyre, Bandit, Pylint etc.
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+.pylint.d/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Celery beat schedule files
+celerybeat-schedule
